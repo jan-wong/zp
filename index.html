@@ -7,12 +7,12 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="h"></div>
-  <div class="h"></div>
-  <div class="h"></div>
+  <p class="h"></p>
+  <p class="h"></p>
+  <p class="h"></p>
 <script src="./zp.js"></script>
   <script>
-    $('.h').text(1);
+    $('.h').text(1).attr('title', 'test');
     $('.h').on('click', function() {
       console.log('2')
     });

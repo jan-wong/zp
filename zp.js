@@ -82,6 +82,13 @@
         return this.each(function() {
           this.textContent = txt;
         });
+      },
+
+      // 举个栗子
+      attr: function(name, value){
+        this.each(function() {
+          this.setAttribute(name, value);
+        });
       }
 
       // ...
